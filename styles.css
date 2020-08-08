@@ -1,0 +1,186 @@
+/* SECTION COLORS */
+.color{
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.white{
+  background-color: #fff;
+}
+
+#title {
+text-align: left;
+
+}
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  text-align: center;
+}
+
+h1 {
+
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 8% 16%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.tittle-font {
+  font-weight: 400;
+}
+
+/* navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 16px 0 16px;
+}
+
+.nav-link {
+
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* Download-Btn */
+.Download-Btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title-Img */
+.Title-Img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature Section */
+#features {
+
+  position: relative;
+  /* z-index: 1;  */
+
+}
+
+.logo {
+  color: #ef8172;
+  font-size: 5rem;
+}
+
+.logo:hover {
+  color: #ff4c68;
+}
+
+.h3-of-feture {
+  margin-top: 1em;
+  font-size: 1.5rem;
+
+  font-weight: bold;
+}
+
+.p-of-feature {
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+/* Testimonials-Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.em-carousel {
+  font-weight: 500;
+}
+
+.Dog-Image {
+  width: 10%;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.lady-image {
+  width: 12%;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+#press {
+
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+
+.pricing-colomn {
+  padding: 3% 2%;
+}
+
+p {
+  font-weight: 400;
+}
+
+@media (max-width: 1210px) {
+  .Title-Img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+
+  }
+}
+
+/* Call-To-Action Section */
+
+
+.cta-h3 {
+
+  font-weight: 800;
+  font-size: 3.5rem;
+
+}
+
+/* Fotter-Section */
+
+
+.Social-icon {
+  margin: 1.5%;
+  font-size: 1.5rem;
+}
+
+.Social-icon:hover {
+  color: #318fb5;
+}
